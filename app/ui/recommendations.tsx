@@ -12,7 +12,7 @@ const platforms = [
         imagePath: "/CollectionExplorer.png",
         imageTitle: "Online Collection",
         href: "https://www.fluxguide.com/en/collection-explorer/",
-        description: "MuseumPlus is the industry standard for Collection Management with state-of-the-art web based curation tools.",
+        description: "The collection explorer is the best way to make the treasures hidden in your system accessible to the public.",
         contact: "office@zetcom.com",
         logo: "/Fluxguide-Logo.svg"
     },
@@ -21,7 +21,7 @@ const platforms = [
         imagePath: "/fluxguide_lmw.jpg",
         imageTitle: "Guiding",
         href: "https://www.fluxguide.com/en",
-        description: "MuseumPlus is the industry standard for Collection Management with state-of-the-art web based curation tools.",
+        description: "Fluxguide is the world market leader for mobile museum guides.",
         contact: "office@zetcom.com",
         logo: "/zetcomLogo.png"
     },
@@ -30,9 +30,9 @@ const platforms = [
         imagePath: "/Curator.jpeg",
         imageTitle: "Curator",
         href: "https://ortelia.com/products/ortelia-curator-exhibition-design-software/",
-        description: "MuseumPlus is the industry standard for Collection Management with state-of-the-art web based curation tools.",
-        contact: "office@zetcom.com",
-        logo: "/zetcomLogo.png"
+        description: "Experience the next evolution in exhibition design with Ortelia Curator software that empowers museums to easily curate, plan, archive and share exhibitions.",
+        contact: "laz@ortelia.com",
+        logo: "/ortelia_logo.jpeg"
     },
     {
         platformValue: "4",
@@ -48,18 +48,18 @@ const platforms = [
         imagePath: "/AR.jpeg",
         imageTitle: "Spatial Computing",
         href: "https://www.fluxguide.com/en/explore-new-realities-augmented-virtual-and-mixed-reality/",
-        description: "MuseumPlus is the industry standard for Collection Management with state-of-the-art web based curation tools.",
-        contact: "office@zetcom.com",
-        logo: "/zetcomLogo.png"
+        description: "Fluxguide is earlier mover with over 12 years experience in AR, now moving into Spatial Computing for museums.",
+        contact: "office@fluxguide.com",
+        logo: "/Fluxguide-Logo.svg"
     },
     {
         platformValue: "7",
         imagePath: "/MuseumStars.png",
         imageTitle: "Plug and Play",
         href: "https://www.museumstars.com/en/product-english/",
-        description: "MuseumPlus is the industry standard for Collection Management with state-of-the-art web based curation tools.",
-        contact: "office@zetcom.com",
-        logo: "/zetcomLogo.png"
+        description: "MuseumStars offers a ready-to-use multimedia guide platform that transforms your cultural space into a digital experience hub.",
+        contact: "office@fluxguide.com",
+        logo: "/Fluxguide-Logo.svg"
     }
 ];
 

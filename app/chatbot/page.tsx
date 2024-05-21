@@ -69,8 +69,9 @@ return (
       <input
         type="text"
         value={value}
+        placeholder="Start typing your questions ..."
         onChange={onChange}
-        className="w-1/2 px-4 py-2 border border-blue-500 rounded"
+        className="w-1/3 px-4 py-2 border border-blue-500 rounded"
       />
     </div>
     <div className="mb-4">
