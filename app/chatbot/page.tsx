@@ -8,6 +8,7 @@ import {
   SparklesIcon
 } from '@heroicons/react/24/outline';
 import React from 'react';
+import Link from "next/link";
 
 
 // import useState so that we can update the response we get from the API
@@ -63,20 +64,21 @@ return (
     </div>
 
     <div className="container mx-auto text-center">
-      <div className="mb-4 text-black">
-        <input
-          type="text"
-          value={value}
-          onChange={onChange}
-          className="w-1/2 px-4 py-2 border border-blue-500 rounded"
-        />
-      </div>
-      <div className="mb-4">
-        <ChatBotButton onClick={handleSubmit} icon={<SparklesIcon className="w-5 h-5" />}>
-          Ask AI Consultant
-        </ChatBotButton>
-      </div>
-      <div className="w-1/2 mx-auto p-8 bg-white rounded shadow-lg">
+  <div>
+    <div className="mb-4 text-black">
+      <input
+        type="text"
+        value={value}
+        onChange={onChange}
+        className="w-1/2 px-4 py-2 border border-blue-500 rounded"
+      />
+    </div>
+    <div className="mb-4">
+      <ChatBotButton onClick={handleSubmit} icon={<SparklesIcon className="w-5 h-5" />}>
+        Ask AI Consultant
+      </ChatBotButton>
+    </div>
+    <div className="w-1/2 mx-auto p-8 bg-white rounded shadow-lg">
       <p className="text-lg">
         <img src="csg_logo_noclaim.png" alt="Logo" className="inline-block h-8 mr-2" />
         :&nbsp;
@@ -86,9 +88,23 @@ return (
             <br />
           </React.Fragment>
         ))}
-        </p>
-      </div>
+      </p>
     </div>
+  </div>
+  <div className="text-right mt-4">
+    <Link
+      href="/"
+      className="inline-flex h-10 items-center rounded-lg bg-gray-100 px-4 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-200"
+    >
+      Cancel
+    </Link>
+  </div>
+</div>
+
+
+
+    
+
   </main>
 );
 };

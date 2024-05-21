@@ -49,7 +49,7 @@ export default function Results() {
         </div>
         
 
-        <div className="relative z-10 flex flex-col items-center justify-center text-center">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center mt-8">
           <p className="uppercase font-bold text-2xl">Your Recommendations</p>
           <p>Have a look at those solutions that could fit your needs.</p>
           <p>Or go back to the start to look for inspiration again.</p>
@@ -64,7 +64,7 @@ export default function Results() {
 
 
     {/* Link to start the Product Finder and AI */}
-    <div className="mt-48">
+    <div className="inline-block" style={{ marginTop: '210px' }}>
     <div className="flex items-center space-x-4">
         <div className="">
             <RoundedButton icon={<HomeIcon className="w-5 h-5" />} href="/">

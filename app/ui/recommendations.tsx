@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { use } from 'react';
 import { useSearchParams } from 'next/navigation';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 // Array of platforms
 const platforms = [
@@ -76,9 +77,9 @@ const Recommendations = () => {
         <div className="flex justify-center mt-4">
             {filteredPlatforms.map((platform, index) => (
                 <div key={index} className='hover:z-40'>
-                    <div className="mx-2 transition ease-in-out delay-150 duration-700 hover:scale-125 transform h-80 w-60">
+                    <div className="mx-2 transition ease-in-out delay-150 duration-700 hover:scale-110 transform h-80 w-60">
                         {/* Image */}
-                        <div className="border border-orange-500 hover:border-grey-400 rounded-md shadow-[black] shadow-lg hover:shadow-orange-500">
+                        <div className="relative border border-orange-500 hover:border-grey-400 rounded-md shadow-[black] shadow-lg hover:shadow-orange-500 group">
                             <Link target="_blank" href={platform.href}>
                                 <img
                                     className="object-cover  rounded-sm"
@@ -87,6 +88,8 @@ const Recommendations = () => {
                                     // width={200}
                                     // height={200}
                                 />
+                            
+                            <ArrowTopRightOnSquareIcon className="absolute bottom-2 left-2 h-4 w-4 text-orange-500 opacity-0 transition-opacity ease-in-out delay-150 duration-700 group-hover:opacity-100" />
                             </Link>
                         </div>
                         <div className='text-nowrap'>{platform.imageTitle}</div>
