@@ -94,7 +94,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="float-right" style={{ marginTop: '-6.5rem' }}>
+          <div className="float-right hidden sm:block"style={{ marginTop: '-6.5rem' }}>
                 <Image
                   src="/museum_icon.svg"
                   width={80}
@@ -119,13 +119,13 @@ export default function Home() {
 
       {/* Link to start the Product Finder and AI */}
       <div className="flex items-center space-x-4">
-        <div className="animate-pulse hover:animate-none">
+        <div className="animate-bounce hover:animate-none">
           <RoundedButton icon={<AdjustmentsHorizontalIcon className="w-5 h-5" />} href="/questions">
             Start Finder
           </RoundedButton>
         </div>
         
-        <div className="opacity-50">
+        <div className="">
             <RoundedButton icon={<SparklesIcon className="w-5 h-5" />} href="/chatbot">
             AI Consultant
             </RoundedButton>

@@ -72,8 +72,8 @@ export default function Results() {
             </RoundedButton>
             </div>
             
-            <div className="opacity-50">
-            <RoundedButton icon={<SparklesIcon className="w-5 h-5" />} href="/ai">
+            <div className="">
+            <RoundedButton icon={<SparklesIcon className="w-5 h-5" />} href="/chatbot">
             AI Consultant
             </RoundedButton>
             </div>
