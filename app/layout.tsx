@@ -19,6 +19,11 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/banner-img1-CSG.png"
+          as="image"
+        />
       </Head>
       <body className={jost.className}>{children}</body>
     </html>
