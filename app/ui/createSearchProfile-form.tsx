@@ -150,8 +150,22 @@ export default function Form(){
               <ArrowPathIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500" />
             </div>
           </div>
-  
-        </div>
+      </div>
+          
+          {/* Email address optional */}
+          <div className='p-8 bg-gradient-to-b from-black to-transparent'>
+          <label className="mb-2 block font-medium">
+              Do you want to receive customized information? (optional)
+          </label>
+          <input
+              type="email"
+              id="museumEmail"
+              name="museumEmail"
+              placeholder="Enter email ..."
+              className="p-2 border border-gray-300 rounded-md text-black w-60"
+          />
+          </div>
+
         <div className="mt-6 flex justify-end gap-4">
           <Link
             href="/"
