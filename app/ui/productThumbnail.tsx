@@ -13,7 +13,7 @@ interface ProductThumbnailProps {
 
 const ProductThumbnail: React.FC<ProductThumbnailProps> = ({ imagePaths, imageTitles, hrefs }) => {
   return (
-    <div className="flex justify-center mt-4">
+    <div className="flex justify-center">
       {imagePaths.map((path, index) => (
         <div key={index} className='hover:z-40'>
         <div className="mx-2 transition ease-in-out delay-150 duration-700 hover:scale-125 transform">
@@ -21,7 +21,7 @@ const ProductThumbnail: React.FC<ProductThumbnailProps> = ({ imagePaths, imageTi
           <div className="relative border-4 border-white border-opacity-25 rounded-md shadow-black shadow-xl transition ease-in-out delay-150 duration-700 hover:border-orange-500 group">
             <Link target="_blank" href={hrefs[index]}>
               <img
-                className="object-cover h-80 w-60 rounded-sm"
+                className="object-cover h-60 w-40 rounded-sm"
                 src={path}
                 width={200}
                 height={200}

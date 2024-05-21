@@ -4,7 +4,8 @@ import ProductThumbnail from "./ui/productThumbnail";
 import {
   ArrowTopRightOnSquareIcon,
   AdjustmentsHorizontalIcon,
-  SparklesIcon
+  SparklesIcon,
+  WrenchScrewdriverIcon
 } from '@heroicons/react/24/outline';
 
 export default function Home() {
@@ -76,22 +77,39 @@ export default function Home() {
             </a>
           </div>
 
-          <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 font-normal text-black">
-              University project - In progress
-          </p>
+          <div className="rounded bg-white text-sm text-black px-4 py-2 flex items-center">
+            <span className="mr-2">In progress</span>
+            <WrenchScrewdriverIcon className="h-4 w-4" />
+        </div>
         </div>
 
-        <div className="relative z-10 flex flex-col items-center justify-center text-center">
-          <div className="uppercase font-bold text-5xl m-6">
-            <p>Welcome Australia</p>
+        <div className="relative z-10 items-center justify-center text-center">
+          <div className="uppercase font-bold text-4xl m-4 mt-12">
+            <p>
+              Welcome Australian Museums
+            </p>
             <div className="mt-2">
-              <p>Solutions for every Museum Use Case</p>
+              <p>
+                Solutions for every Use Case
+              </p>
             </div>
           </div>
+          <div className="float-right" style={{ marginTop: '-6.5rem' }}>
+                <Image
+                  src="/museum_icon.svg"
+                  width={80}
+                  height={80}
+                  quality={100}
+                  alt="museum icon"
+                />
+          </div>
           <div className="text-xl">
-            <p>Explore our product categories, use the intelligent product finder or get ideas from our AI consultant.</p>
+            <p>
+              Explore our product categories, use the intelligent product finder, or get ideas from our AI consultant.
+            </p>
           </div>
         </div>
+
 
         {/* Images of Products */}
         <div className="mb-16 mt-4">
