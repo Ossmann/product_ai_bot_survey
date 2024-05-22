@@ -79,7 +79,8 @@ const Recommendations = () => {
                 <div key={index} className='hover:z-40'>
                     <div className="mx-2 transition ease-in-out delay-150 duration-700 hover:scale-110 transform h-80 w-60">
                         {/* Image */}
-                        <div className="relative border border-orange-500 hover:border-grey-400 rounded-md shadow-[black] shadow-lg hover:shadow-orange-500 group">
+                        <div className='relative'>
+                        <div className=" border border-orange-500 hover:border-grey-400 rounded-md shadow-[black] shadow-lg hover:shadow-orange-500 group">
                             <Link target="_blank" href={platform.href}>
                                 <img
                                     className="object-cover  rounded-sm"
@@ -95,6 +96,7 @@ const Recommendations = () => {
                         <div className='text-nowrap'>{platform.imageTitle}</div>
                         <div className='text-sm font-light'>{platform.description}</div>
                         <div>
+                        </div>
                         <img
                                     className="rounded-sm"
                                     src={platform.logo}

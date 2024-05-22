@@ -80,8 +80,6 @@ export default function Results() {
      </div>
      </div>
             
-
-
       {/* Bottom gradiant */}
       <div className="absolute bottom-0 left-0 w-full h-20">
       <div className="absolute inset-0 bg-gradient-to-t to-transparent">
