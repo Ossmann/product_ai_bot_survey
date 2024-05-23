@@ -166,6 +166,13 @@ export default function Form(){
           />
           </div>
 
+
+          <div className='text-xs pl-8'>
+        <p>By submitting your email address you agree to being contacted regarding products of the culture software group and its affiliated companies.</p>
+        <p>The data entered here will be stored securely.</p>
+        <p>For data protection details see <a href="https://www.fluxguide.com/en/data-privacy/" target="_blank">https://www.fluxguide.com/en/data-privacy/</a></p>
+    </div>
+
         <div className="mt-6 flex justify-end gap-4 pr-20">
           <Link
             href="/"
